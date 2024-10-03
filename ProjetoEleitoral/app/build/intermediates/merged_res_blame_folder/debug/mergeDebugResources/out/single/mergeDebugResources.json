@@ -1,0 +1,110 @@
+[
+    {
+        "merged": "/home/ruz/.gradle/daemon/8.7/com.example.projetoeleitoral.app-debug-57:/layout_activity_tela1.xml.flat",
+        "source": "/home/ruz/.gradle/daemon/8.7/com.example.projetoeleitoral.app-main-59:/layout/activity_tela1.xml"
+    },
+    {
+        "merged": "/home/ruz/.gradle/daemon/8.7/com.example.projetoeleitoral.app-debug-57:/mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "/home/ruz/.gradle/daemon/8.7/com.example.projetoeleitoral.app-main-59:/mipmap-anydpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/home/ruz/.gradle/daemon/8.7/com.example.projetoeleitoral.app-debug-57:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/home/ruz/.gradle/daemon/8.7/com.example.projetoeleitoral.app-main-59:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/ruz/.gradle/daemon/8.7/com.example.projetoeleitoral.app-debug-57:/layout_activity_respostas.xml.flat",
+        "source": "/home/ruz/.gradle/daemon/8.7/com.example.projetoeleitoral.app-main-59:/layout/activity_respostas.xml"
+    },
+    {
+        "merged": "/home/ruz/.gradle/daemon/8.7/com.example.projetoeleitoral.app-debug-57:/layout_activity_main.xml.flat",
+        "source": "/home/ruz/.gradle/daemon/8.7/com.example.projetoeleitoral.app-main-59:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/ruz/.gradle/daemon/8.7/com.example.projetoeleitoral.app-debug-57:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/home/ruz/.gradle/daemon/8.7/com.example.projetoeleitoral.app-main-59:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/ruz/.gradle/daemon/8.7/com.example.projetoeleitoral.app-debug-57:/layout_item_voto.xml.flat",
+        "source": "/home/ruz/.gradle/daemon/8.7/com.example.projetoeleitoral.app-main-59:/layout/item_voto.xml"
+    },
+    {
+        "merged": "/home/ruz/.gradle/daemon/8.7/com.example.projetoeleitoral.app-debug-57:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/ruz/.gradle/daemon/8.7/com.example.projetoeleitoral.app-main-59:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/ruz/.gradle/daemon/8.7/com.example.projetoeleitoral.app-debug-57:/layout_activity_tela2.xml.flat",
+        "source": "/home/ruz/.gradle/daemon/8.7/com.example.projetoeleitoral.app-main-59:/layout/activity_tela2.xml"
+    },
+    {
+        "merged": "com.example.projetoeleitoral.app-debug-57:/layout_activity_formulario.xml.flat",
+        "source": "com.example.projetoeleitoral.app-main-59:/layout/activity_formulario.xml"
+    },
+    {
+        "merged": "/home/ruz/.gradle/daemon/8.7/com.example.projetoeleitoral.app-debug-57:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/ruz/.gradle/daemon/8.7/com.example.projetoeleitoral.app-main-59:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/ruz/.gradle/daemon/8.7/com.example.projetoeleitoral.app-debug-57:/drawable_ic_launcher_background.xml.flat",
+        "source": "/home/ruz/.gradle/daemon/8.7/com.example.projetoeleitoral.app-main-59:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/home/ruz/.gradle/daemon/8.7/com.example.projetoeleitoral.app-debug-57:/mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "/home/ruz/.gradle/daemon/8.7/com.example.projetoeleitoral.app-main-59:/mipmap-anydpi/ic_launcher.xml"
+    },
+    {
+        "merged": "/home/ruz/.gradle/daemon/8.7/com.example.projetoeleitoral.app-debug-57:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/ruz/.gradle/daemon/8.7/com.example.projetoeleitoral.app-main-59:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/ruz/.gradle/daemon/8.7/com.example.projetoeleitoral.app-debug-57:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/home/ruz/.gradle/daemon/8.7/com.example.projetoeleitoral.app-main-59:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/ruz/.gradle/daemon/8.7/com.example.projetoeleitoral.app-debug-57:/drawable__9e28_2680469357.jpg.flat",
+        "source": "/home/ruz/.gradle/daemon/8.7/com.example.projetoeleitoral.app-main-59:/drawable/_9e28_2680469357.jpg"
+    },
+    {
+        "merged": "/home/ruz/.gradle/daemon/8.7/com.example.projetoeleitoral.app-debug-57:/layout_activity_login.xml.flat",
+        "source": "/home/ruz/.gradle/daemon/8.7/com.example.projetoeleitoral.app-main-59:/layout/activity_login.xml"
+    },
+    {
+        "merged": "/home/ruz/.gradle/daemon/8.7/com.example.projetoeleitoral.app-debug-57:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "/home/ruz/.gradle/daemon/8.7/com.example.projetoeleitoral.app-main-59:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/home/ruz/.gradle/daemon/8.7/com.example.projetoeleitoral.app-debug-57:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/home/ruz/.gradle/daemon/8.7/com.example.projetoeleitoral.app-main-59:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/ruz/.gradle/daemon/8.7/com.example.projetoeleitoral.app-debug-57:/layout_activity_resposta.xml.flat",
+        "source": "/home/ruz/.gradle/daemon/8.7/com.example.projetoeleitoral.app-main-59:/layout/activity_resposta.xml"
+    },
+    {
+        "merged": "com.example.projetoeleitoral.app-debug-57:/layout_activity_login.xml.flat",
+        "source": "com.example.projetoeleitoral.app-main-59:/layout/activity_login.xml"
+    },
+    {
+        "merged": "/home/ruz/.gradle/daemon/8.7/com.example.projetoeleitoral.app-debug-57:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/home/ruz/.gradle/daemon/8.7/com.example.projetoeleitoral.app-main-59:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/ruz/.gradle/daemon/8.7/com.example.projetoeleitoral.app-debug-57:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/home/ruz/.gradle/daemon/8.7/com.example.projetoeleitoral.app-main-59:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/ruz/.gradle/daemon/8.7/com.example.projetoeleitoral.app-debug-57:/layout_activity_formulario.xml.flat",
+        "source": "/home/ruz/.gradle/daemon/8.7/com.example.projetoeleitoral.app-main-59:/layout/activity_formulario.xml"
+    },
+    {
+        "merged": "/home/ruz/.gradle/daemon/8.7/com.example.projetoeleitoral.app-debug-57:/xml_data_extraction_rules.xml.flat",
+        "source": "/home/ruz/.gradle/daemon/8.7/com.example.projetoeleitoral.app-main-59:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "/home/ruz/.gradle/daemon/8.7/com.example.projetoeleitoral.app-debug-57:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/home/ruz/.gradle/daemon/8.7/com.example.projetoeleitoral.app-main-59:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/ruz/.gradle/daemon/8.7/com.example.projetoeleitoral.app-debug-57:/xml_backup_rules.xml.flat",
+        "source": "/home/ruz/.gradle/daemon/8.7/com.example.projetoeleitoral.app-main-59:/xml/backup_rules.xml"
+    }
+]
