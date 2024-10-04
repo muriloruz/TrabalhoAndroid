@@ -18,83 +18,160 @@
         app:srcCompat="@drawable/_9e28_2680469357"
         tools:layout_editor_absoluteY="16dp" />
 
-    <CheckBox
-        android:id="@+id/cand1"
-        android:layout_width="220dp"
-        android:layout_height="44dp"
-        android:layout_marginTop="50dp"
-        android:text="Gustavo Bolos"
-        android:textAlignment="center"
-        android:textColor="@color/black"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView9" />
-
     <TextView
         android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="23dp"
+        android:layout_marginTop="4dp"
         android:text="Escolha um candidato"
         android:textColor="@color/black"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView4" />
 
-    <CheckBox
-        android:id="@+id/cand2"
-        android:layout_width="214dp"
-        android:layout_height="41dp"
-        android:layout_marginTop="46dp"
-        android:text="Pedro Maça"
-        android:textAlignment="center"
-        android:textColor="@color/black"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cand1" />
-
-    <CheckBox
-        android:id="@+id/cand3"
-        android:layout_width="216dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="47dp"
-        android:text="Victor Fanunes"
-        android:textAlignment="center"
-        android:textColor="@color/black"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cand2" />
-
-    <CheckBox
-        android:id="@+id/cand4"
-        android:layout_width="202dp"
-        android:layout_height="46dp"
-        android:layout_marginTop="46dp"
-        android:text="José Luiz Cadeira"
-        android:textAlignment="center"
-        android:textColor="@color/black"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cand3" />
-
     <Button
         android:id="@+id/btnVotar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="22dp"
-        android:layout_marginBottom="36dp"
+        android:layout_width="104dp"
+        android:layout_height="71dp"
+        android:layout_marginBottom="15dp"
         android:backgroundTint="@color/black"
         android:text="Votar"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cand4" />
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="292dp"
+        android:layout_height="388dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView10"
+        app:layout_constraintTop_toBottomOf="@+id/textView9">
+
+        <RadioButton
+            android:id="@+id/cand1"
+            android:layout_width="289dp"
+            android:layout_height="wrap_content"
+            android:text="Gustavo Bolos"
+            android:textColor="@color/black"
+            tools:layout_editor_absoluteX="53dp"
+            tools:layout_editor_absoluteY="529dp" />
+
+        <RadioButton
+            android:id="@+id/cand2"
+            android:layout_width="288dp"
+            android:layout_height="wrap_content"
+            android:text="Chatabata"
+            android:textColor="@color/black"
+            tools:layout_editor_absoluteX="56dp"
+            tools:layout_editor_absoluteY="483dp" />
+
+        <RadioButton
+            android:id="@+id/cand3"
+            android:layout_width="289dp"
+            android:layout_height="wrap_content"
+            android:text="Victor Fanunes"
+            android:textColor="@color/black"
+            tools:layout_editor_absoluteX="51dp"
+            tools:layout_editor_absoluteY="435dp" />
+
+        <RadioButton
+            android:id="@+id/cand4"
+            android:layout_width="288dp"
+            android:layout_height="wrap_content"
+            android:text="Jose Luiz Cadeira"
+            android:textColor="@color/black"
+            tools:layout_editor_absoluteX="51dp"
+            tools:layout_editor_absoluteY="378dp" />
+
+        <RadioButton
+            android:id="@+id/cand5"
+            android:layout_width="287dp"
+            android:layout_height="wrap_content"
+            android:text="Pedro Maça"
+            android:textColor="@color/black"
+            tools:layout_editor_absoluteX="48dp"
+            tools:layout_editor_absoluteY="324dp" />
+
+        <RadioButton
+            android:id="@+id/nulos"
+            android:layout_width="286dp"
+            android:layout_height="33dp"
+            android:text="Nulo"
+            android:textColor="@color/black" />
+
+        <RadioButton
+            android:id="@+id/Indeciso"
+            android:layout_width="287dp"
+            android:layout_height="wrap_content"
+            android:text="Indeciso"
+            android:textColor="@color/black" />
+
+        <RadioButton
+            android:id="@+id/radbranco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Branco"
+            android:textColor="@color/black" />
+
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="49dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="6dp"
+        app:layout_constraintEnd_toStartOf="@+id/radioGroup"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:srcCompat="@drawable/cad2" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="45dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="6dp"
+        app:layout_constraintEnd_toStartOf="@+id/radioGroup"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7"
+        app:srcCompat="@drawable/cand1" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="42dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="4dp"
+        app:layout_constraintEnd_toStartOf="@+id/radioGroup"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8"
+        app:srcCompat="@drawable/cand3" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="42dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9"
+        app:srcCompat="@drawable/cand4" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="44dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10"
+        app:srcCompat="@drawable/cand5" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

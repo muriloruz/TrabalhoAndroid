@@ -13,7 +13,7 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 public class Resposta extends AppCompatActivity {
-    TextView txtc1,txtc2,txtc3,txtc4,txttds;
+    TextView txtc1,txtc2,txtc3,txtc4,txttds,txtnbi;
     Button btnSa;
     Voto vt = Voto.getInstance();
     @Override
@@ -27,13 +27,13 @@ public class Resposta extends AppCompatActivity {
         txtc3 = (TextView) findViewById(R.id.txtCand3);
         txtc4 = (TextView) findViewById(R.id.txtCand4);
         txttds = (TextView) findViewById(R.id.tdsCandidatos);
-
+        txtnbi = (TextView) findViewById(R.id.txtnulo);
 
         txtc1.setText("O candidato Gustavo obteve: "+vt.getCand1()+" votos");
         txtc2.setText("O candidato Pedro obteve: "+vt.getCand2()+" votos");
         txtc3.setText("O candidato Victor obteve: "+vt.getCand3()+" votos");
         txtc4.setText("O candidato José obteve: "+vt.getCand4()+" votos");
-
+        txtnbi.setText("Quantidade votos nulos: "+vt.getNulo()+"\nQuantidade votos branco: "+vt.getBranco()+"\nQuantidade votos indecisos: "+vt.getInde());
         String respsCands = vt.resultados();
 
         txttds.setText(respsCands);

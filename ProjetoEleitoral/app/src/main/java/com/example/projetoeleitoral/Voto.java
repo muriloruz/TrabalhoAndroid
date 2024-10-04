@@ -10,6 +10,9 @@ public class Voto {
     private int cand2=0;
     private int cand3=0;
     private int cand4=0;
+    private int nulo=0;
+    private int inde = 0;
+    private int branco=0;
     public ArrayList<VotoE> vte = new ArrayList<>();
     public static Voto instance;
      private Voto(){}
@@ -17,6 +20,30 @@ public class Voto {
     public static Voto getInstance(){
          if(instance == null) instance = new Voto();
          return instance;
+    }
+
+    public int getBranco() {
+        return branco;
+    }
+
+    public void setBranco() {
+        this.branco +=1;
+    }
+
+    public int getInde() {
+        return inde;
+    }
+
+    public void setInde() {
+        this.inde += 1;
+    }
+
+    public int getNulo() {
+        return nulo;
+    }
+
+    public void setNulo() {
+        this.nulo +=1;
     }
 
     public int getCand1() {
