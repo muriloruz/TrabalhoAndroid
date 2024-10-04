@@ -12,10 +12,14 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import java.util.ArrayList;
+
 public class Formulario extends AppCompatActivity {
     Button btn;
     EditText edNome, edEstCivil, edIdade, edSexo, edTelefone;
-    PessoaForms pe = PessoaForms.getInstance();
+    PessoaForms pe = new PessoaForms();
+
+    ArrayList<PessoaForms> peL = new ArrayList<>();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -36,6 +40,8 @@ public class Formulario extends AppCompatActivity {
                 pe.setSexo(edSexo.getText().toString());
                 pe.setTelefone(edTelefone.getText().toString());
                 pe.setIdade(Integer.parseInt(edIdade.getText().toString()));
+
+
                 Intent inte = new Intent(Formulario.this, Login.class);
                 startActivity(inte);
             }

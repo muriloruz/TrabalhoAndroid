@@ -53,6 +53,7 @@ public class Tela2 extends AppCompatActivity {
                 else if(c2) vt.setCand2();
                 else if(c3) vt.setCand3();
                 else if(c4) vt.setCand4();
+                else if(c5) vt.setCand5();
                 else if(cn) vt.setNulo();
                 else if(cb) vt.setBranco();
                 else if(ci) vt.setInde();

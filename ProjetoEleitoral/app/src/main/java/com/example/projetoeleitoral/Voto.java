@@ -10,6 +10,7 @@ public class Voto {
     private int cand2=0;
     private int cand3=0;
     private int cand4=0;
+    private int cand5=0;
     private int nulo=0;
     private int inde = 0;
     private int branco=0;
@@ -78,6 +79,12 @@ public class Voto {
         this.cand4 += 1;
     }
 
+    public int getCand5() { return cand5; }
+
+    public void setCand5() {
+        this.cand5 += 1;
+    }
+
     public Map<String, Integer> contaVotos() {
         Map<String, Integer> contagemVotos = new HashMap<>();
 
@@ -102,5 +109,10 @@ public class Voto {
         }
 
         return rst.toString();
+    }
+    public int calcularPerc(int numVoto){
+        int totalVoto = this.getCand1() + this.getCand2() +  this.getCand3() + this.getCand4() + this.getCand5() + this.getBranco()+ this.getNulo()+ this.getInde();
+        double calc = ((double) numVoto/totalVoto)*100;
+        return (int) Math.round(calc);
     }
 }

@@ -13,7 +13,7 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 public class Resposta extends AppCompatActivity {
-    TextView txtc1,txtc2,txtc3,txtc4,txttds,txtnbi;
+    TextView txtc1,txtc2,txtc3,txtc4,txtc5,txttds,txtnbi;
     Button btnSa;
     Voto vt = Voto.getInstance();
     @Override
@@ -26,14 +26,17 @@ public class Resposta extends AppCompatActivity {
         txtc2 = (TextView) findViewById(R.id.txtCand2);
         txtc3 = (TextView) findViewById(R.id.txtCand3);
         txtc4 = (TextView) findViewById(R.id.txtCand4);
+        txtc5 = (TextView) findViewById(R.id.txtCand5);
         txttds = (TextView) findViewById(R.id.tdsCandidatos);
         txtnbi = (TextView) findViewById(R.id.txtnulo);
 
-        txtc1.setText("O candidato Gustavo obteve: "+vt.getCand1()+" votos");
-        txtc2.setText("O candidato Pedro obteve: "+vt.getCand2()+" votos");
-        txtc3.setText("O candidato Victor obteve: "+vt.getCand3()+" votos");
-        txtc4.setText("O candidato José obteve: "+vt.getCand4()+" votos");
-        txtnbi.setText("Quantidade votos nulos: "+vt.getNulo()+"\nQuantidade votos branco: "+vt.getBranco()+"\nQuantidade votos indecisos: "+vt.getInde());
+
+        txtc1.setText("O candidato Gustavo obteve: "+vt.getCand1()+" votos com o percentual de "+vt.calcularPerc(vt.getCand1()) + "%");
+        txtc2.setText("O candidato Pedro obteve: "+vt.getCand5()+" votos com o percentual de "+vt.calcularPerc(vt.getCand5())+ "%");
+        txtc3.setText("O candidato Victor obteve: "+vt.getCand3()+" votos com o percentual de "+vt.calcularPerc(vt.getCand3())+ "%");
+        txtc4.setText("O candidato José obteve: "+vt.getCand4()+" votos com o percentual de "+vt.calcularPerc(vt.getCand4())+ "%");
+        txtc5.setText("O candidato Suzana obteve: "+vt.getCand2()+" votos com o percentual de "+vt.calcularPerc(vt.getCand2())+ "%");
+        txtnbi.setText("Quantidade votos nulos: "+vt.getNulo()+" com percentual de "+vt.calcularPerc(vt.getNulo())+"%\nQuantidade votos branco: "+vt.getBranco()+" com percentual de "+vt.calcularPerc(vt.getBranco())+"%\nQuantidade votos indecisos: "+vt.getInde()+" com percentual de "+vt.calcularPerc(vt.getInde())+ "%");
         String respsCands = vt.resultados();
 
         txttds.setText(respsCands);

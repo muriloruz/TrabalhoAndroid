@@ -13,6 +13,12 @@
         android:theme="@style/Theme.ProjetoEleitoral"
         tools:targetApi="31">
         <activity
+            android:name=".recly_view"
+            android:exported="false" />
+        <activity
+            android:name=".RespostaForms"
+            android:exported="false" />
+        <activity
             android:name=".Resposta"
             android:exported="false" />
         <activity

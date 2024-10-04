@@ -1,20 +1,15 @@
 package com.example.projetoeleitoral;
 
+import java.util.ArrayList;
+
 public class PessoaForms {
     private String nome;
     private String estCivil;
     private String telefone;
     private int idade;
     private String sexo;
-    public static PessoaForms instace;
 
 
-    private PessoaForms(){}
-
-    public static PessoaForms getInstance(){
-        if(instace == null) instace = new PessoaForms();
-        return instace;
-    }
 
     public String getNome() {
         return nome;
@@ -55,4 +50,8 @@ public class PessoaForms {
     public void setSexo(String sexo) {
         this.sexo = sexo;
     }
+
+
+
+
 }
