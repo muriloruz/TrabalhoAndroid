@@ -7,7 +7,8 @@ Aplicativo desenvolvido em java para android orientado por Everson Nunes de Alme
 Para utilizar o aplicativo basta clonar o repositório e abrir a pasta pelo Android Studio.
 
 # Utilização
-Depois de rodar o aplicativo, o usuário será levado para uma página de login. Nessa página terá duas opções de login: "entrevistador" e "admin". Depois de logado como "entrevistador", o usuário digitará seu voto espontâneo (basicamente em quem ele quer votar). Depois será direcionado para parte de voto onde poderá escolher entre 8 opções, sendo elas: 
+Depois de rodar o aplicativo, o usuário será levado para uma página de login. Nessa página terá duas opções de login: "entrevistador" e "admin". Depois de logado como "entrevistador", o usuário digitará seu voto espontâneo (basicamente em quem ele quer votar). Depois será direcionado para parte de voto onde poderá escolher entre 8 opções.
+## Sendo elas: 
     - Os 5 candidatos;
     - Nulo;
     - Branco;
